@@ -46,14 +46,12 @@ O:
 2. Ejecuta las celdas en orden
 3. El notebook carga automáticamente el dataset desde `/data/` o desde un enlace público (según corresponda)
 
-## 🧠 Resumen del análisis
+## 🎯 Objetivos:
 
-- Limpieza y preparación de datos con pandas
-- Pipeline propio de EDA reutilizable
-- Análisis de rentabilidad y comportamiento de ventas
-- Análisis de retención por cohortes en SQL
-- Análisis de funnel de conversión en SQL
-- Prueba de hipótesis estadística (A/B test con z-test)
-- Modelo de datos en Power BI (esquema de estrella)
-- Dashboard 1: Overview Ejecutivo
-- Dashboard 2: Detalle / Drill-through
+Explorar, validar y analizar estadísticamente el experimento A/B para identificar diferencias significativas entre las páginas y traducir los resultados en recomendaciones para el negocio.
+
+- Explorar y validar un dataset proveniente de un experimento A/B real.
+- Comparar métricas de negocio mediante pruebas estadísticas apropiadas.
+- Interpretar resultados estadísticos desde una perspectiva de negocio.
+- Visualizar resultados para respaldar conclusiones.
+- Comunicar hallazgos o insights de forma clara a stakeholders no técnicos.
