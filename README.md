@@ -27,7 +27,7 @@ Para ello, trabajare con el dataset:
 
 Haz clic en el siguiente botón:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Alezgo-ui/Ecommerce_datacleaning_dashboard/blob/main/data_cleaning_eda_ecommerce_ipynb.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Alezgo-ui/Hipotesis_pruebas_estadisticas/blob/main/Experimento_pruebas_estadisticas.ipynb)
 
 O:
 
