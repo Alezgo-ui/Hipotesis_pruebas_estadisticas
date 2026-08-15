@@ -1,56 +1,15 @@
-# Proyecto definitivo: De datos a decisiones de negocio
+# Validando hipótesis de negocio con pruebas estadísticas
 
-Introducción:
+📊 Introducción
+Soy analista de datos en el equipo de marketing digital de una empresa de ecommerce.
 
-En esta ocasion debo trabajar para RappiPlus: un servicio de suscripción dentro del ecosistema de Rappi diseñado para aumentar la frecuencia de compra y el valor generado por usuario.
+Se ejecutó un experimento A/B en la página de inicio (landing page), comparando dos versiones (A y B) con el objetivo de mejorar la tasa de conversión y el valor económico por usuario.
 
-Sin embargo, el equipo de negocio no tiene claro si el servicio está cumpliendo su objetivo.
+La empresa necesita una decisión basada en datos para definir qué versión implementar, considerando la tasa de conversión, el gasto promedio y el comportamiento por canal de tráfico y tipo de usuario.
 
-Existen dudas clave:
+Para ello, trabajare con el dataset:
 
-¿Los usuarios realmente compran más?
-¿El modelo está generando ganancias?
-¿Se están perdiendo oportunidades en el proceso de compra?
-Para responder estas preguntas, trabajare con datos de pedidos, catálogo y marketing.
-
-El análisis permitirá entender el desempeño del servicio y detectar oportunidades concretas de mejora.
-
----
-
-📂 Dataset del proyecto
-El análisis comienza con tres fuentes principales:
-
-rappiplus_orders_raw.csv
-
-   - Cada fila representa un pedido realizado en la plataforma.
- 
-rappiplus_catalog.csv
-
-   - Cada fila representa un producto disponible en la plataforma.
- 
-rappiplus_marketing_spend.csv
-
-   - Cada fila representa una inversión en marketing realizada en un país y canal específico.
----
-
-🗂️ Fuente de datos
-Para este análisis se utilizará la siguiente tabla:
-
-'events', que se encuentra almacenada en una base de datos.
-
-⚙️ Nota: La conexión a esta base de datos se realizará desde el Jupyter Notebook.
-
-Para este análisis se utilizarán las siguientes tablas:
-
----
-
-Tabla users → Información de registro de usuarios.
-
-   - Cada fila representa un usuario registrado en la plataforma.
- 
-Tabla user_activity → Actividad de los usuarios después del registro.
-
-   - Cada fila representa la actividad de un usuario después de su registro.
+/datasets/landing_experiment.csv: información de usuarios expuestos a las versiones A y B, incluyendo región, dispositivo, fuente de tráfico, tipo de usuario, conversión y gasto.
 
 ---
 
