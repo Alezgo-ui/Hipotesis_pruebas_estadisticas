@@ -10,7 +10,7 @@ La empresa necesita una decisión basada en datos para definir qué versión imp
 
 Para ello, trabajare con el dataset:
 
-/datasets/landing_experiment.csv: que contiene información de usuarios expuestos a las versiones A y B, incluyendo región, dispositivo, fuente de tráfico, tipo de usuario, conversión y gasto.
+  - /datasets/landing_experiment.csv: que contiene información de usuarios expuestos a las versiones A y B, incluyendo región, dispositivo, fuente de tráfico, tipo de usuario, conversión y gasto.
 
 ---
 
